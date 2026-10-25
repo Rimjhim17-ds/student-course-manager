@@ -1,0 +1,54 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Web Development with React",
+      "duration": "8 weeks",
+      "instructor": "Dr. Meera Rao"
+    },
+    {
+      "id": 2,
+      "title": "Java and Spring Boot",
+      "duration": "10 weeks",
+      "instructor": "Prof. Arjun Nair"
+    },
+    {
+      "id": 3,
+      "title": "Database Systems with MySQL",
+      "duration": "6 weeks",
+      "instructor": "Ms. Kavya Shetty"
+    },
+    {
+      "title": "advanced data science",
+      "duration": "12 hours",
+      "instructor": "mr.rahul sharma",
+      "id": 4
+    }
+  ],
+  "students": [
+    {
+      "name": "Nasha",
+      "email": "Nasha.patil@example.com",
+      "courseId": 1,
+      "id": 1
+    },
+    {
+      "name": "Sneha Hiremath",
+      "email": "sneha.h@example.com",
+      "courseId": 1,
+      "id": 3
+    },
+    {
+      "name": "utkarsh",
+      "email": "utkarsh@gmail.com",
+      "courseId": 1,
+      "id": 4
+    },
+    {
+      "name": "veer sharma",
+      "email": "veer@6767.com",
+      "courseId": 1,
+      "id": 5
+    }
+  ]
+}

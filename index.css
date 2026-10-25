@@ -1,0 +1,28 @@
+/* Custom CSS layered on top of Bootstrap */
+:root {
+  --ink: #1f2a37;
+  --brand: #1d4e89;
+  --brand-dark: #153a68;
+  --paper: #f5f7fa;
+}
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
+}
+.app-nav { background: var(--brand); }
+.app-nav .nav-link { color: #dbe7f5; }
+.app-nav .nav-link.active, .app-nav .nav-link:hover { color: #fff; }
+.btn-brand { background: var(--brand); color: #fff; border-color: var(--brand); }
+.btn-brand:hover { background: var(--brand-dark); color: #fff; }
+.panel {
+  background: #fff;
+  border: 1px solid #dfe5ec;
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+.stat-number { font-size: 2.5rem; font-weight: 700; color: var(--brand); line-height: 1; }
+.table th { background: #eef2f7; }
+@media (max-width: 576px) {
+  .stat-number { font-size: 2rem; }
+}
